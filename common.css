@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color:#444;
+    line-height: 150%;
+}
+
+/*ヘッダー*/
+header{
+    height: 200px;
+    padding: 10px;
+}
+header h1{
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0;
+    margin-left: 100px;
+    float: left
+}
+
+header h1 a{
+    text-decoration: none;
+    color:#444;
+}
+
+/*ナビゲーション*/
+header nav {
+    float: right;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+header nav ul {
+    float: right;
+    margin-right: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+header nav ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color:#444;
+}
+nav a:hover{ 
+    text-decoration: underline;
+}
+
+
+
+
+
+/*フッター*/
+footer{
+    text-align: center;
+    background: black;
+    color: #fff;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    color:#3cc;
+}

@@ -1,0 +1,23 @@
+
+/*トップ画像*/
+.top-image{
+    position: relative;
+}
+.top-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.top-image p{
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+
+/*3つのメリット*/
+.merit{
+    text-align: center;
+}
+

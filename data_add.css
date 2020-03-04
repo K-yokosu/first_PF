@@ -1,0 +1,12 @@
+
+.main, .backpage{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.data-content{
+    background: rgb(246,246,246);
+}
+

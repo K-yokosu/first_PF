@@ -1,0 +1,49 @@
+
+.main{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background: rgb(240,240,240);
+}
+.backpage{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.form{
+    overflow: hidden;
+}
+
+.form-content{
+    width:35%;
+    margin: 2px;
+}
+
+
+input[type="text"]{
+    width: 50%;
+    margin: 2px;
+}
+
+input[type="submit"]{
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.form .area-msg{
+    color: #f00;
+    text-align: left;
+    margin-top: 0;
+}
+.backpage a{
+    text-decoration: none;
+    color: #333;
+}
+.backpage a:hover{
+    text-decoration: underline;
+    color: aqua
+}

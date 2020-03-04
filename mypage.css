@@ -1,0 +1,105 @@
+body{
+    background-image: url(../img/mypage-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: rgba(240,240,240,0.5);
+}
+
+.container-container{
+    overflow: hidden;
+}
+
+.table-container-container{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+/* 表共通---------------------------------*/
+.title{
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.form{
+   overflow: hidden;
+   height: 30px;
+}
+
+.form-content{
+    float: left;
+    margin: 4px;
+}
+
+/* 円グラフエリア---------------------------------*/
+
+.form-container{
+    width: 560px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+}
+.notcircle-text{
+    font-size: 40px;
+}
+
+/* 金額表示エリア---------------------------------*/
+.maney-container{
+    width: 360px;
+    box-sizing: border-box;
+    margin: 10px;
+    float: left;
+}
+.maney-container ul li{
+    list-style-type:none;
+    margin: 30px;
+    font-size: 20px;
+}
+.maney-container ul li p{
+    margin: 0;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+
+/* 支出項目一覧エリア---------------------------------*/
+.table-a-container{
+    margin: 10px;
+}
+.td_right td{
+    text-align: right;
+}
+.table-a-container table thead th,.table-a-container table tbody td{
+    width: 50px;
+}
+.table-a-container table thead th:first-child,.table-a-container table tbody th:first-child{
+    width: 76px;
+    height: 26px;
+}
+
+
+/* 食品・娯楽費一覧エリア---------------------------------*/
+.table-b-container{
+    margin: 10px;
+    float: left;
+}
+/* table共通---------------------------------*/
+table{
+    background: rgb(0,230,0);
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 14px;
+}
+
+th,td{
+    background: #fff;
+}
+
